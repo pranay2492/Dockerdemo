@@ -1,6 +1,0 @@
-cd /
-cd /Users/Pranay/Desktop/Dockerdemo
-docker stop helloworld
-docker rm helloworld
-docker build -t hello-world /Users/Pranay/Desktop/Dockerdemo/
-docker run -d --name helloworld -p 88:90 -v /Users/Pranay/Desktop/Dockerdemo/src/:/var/www/html hello-world
